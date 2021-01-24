@@ -1,7 +1,8 @@
 from django.shortcuts import render
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
-from .models import Post
+from .models import Post, Comment
+from .forms import NewCommentForm
 
 
 def home(request):
@@ -20,6 +21,23 @@ class PostListView(ListView):
 
 class PostDetailView(DetailView):
     model = Post
+
+    def get_context_data(self, **kwargs):
+        data = super().get_context_data(**kwargs)
+
+        comments_connected = Comment.objects.filter(blogpost_connected=self.get_object()).order_by('-date_posted')
+        data['comments'] = comments_connected
+        if self.request.user.is_authenticated:
+            data['comment_form'] = NewCommentForm(instance=self.request.user)
+
+        return data
+
+    def post(self, request, *args, **kwargs):
+        new_comment = Comment(content=request.POST.get('content'),
+                              author=self.request.user,
+                              blogpost_connected=self.get_object())
+        new_comment.save()
+        return self.get(self, request, *args, **kwargs)
 
 
 class PostCreateView(LoginRequiredMixin, CreateView):

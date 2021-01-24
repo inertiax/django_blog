@@ -3,12 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="7b4e8e04-3ebb-4f80-9055-67bf71653b26" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/post_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_blog/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/default.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/default.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/templates/users/logout.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/logout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/profile.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -77,10 +78,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="user register, login &amp; logout updates" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="807" y="300" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1609707731974">
+    <state x="807" y="300" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1611257707612">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="807" y="300" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1609707731974" />
+    <state x="807" y="300" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1611257707612" />
     <state x="349" y="177" width="1030" height="811" key="CommitChangelistDialog2" timestamp="1609707263467">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -89,10 +90,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="610" y="362" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1609602329973" />
-    <state x="715" y="431" key="com.intellij.ide.util.TipDialog" timestamp="1610799550682">
+    <state x="715" y="431" key="com.intellij.ide.util.TipDialog" timestamp="1611477897314">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="715" y="431" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1610799550682" />
+    <state x="715" y="431" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1611477897314" />
     <state x="936" y="481" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609707233810">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
